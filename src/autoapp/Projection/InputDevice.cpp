@@ -93,19 +93,19 @@ bool InputDevice::handleKeyEvent(QEvent* event, QKeyEvent* key)
         buttonCode = aasdk::proto::enums::ButtonCode::ENTER;
         break;
 
-    case Qt::Key_Left:
+    case Qt::Key_A:
         buttonCode = aasdk::proto::enums::ButtonCode::LEFT;
         break;
 
-    case Qt::Key_Right:
+    case Qt::Key_D:
         buttonCode = aasdk::proto::enums::ButtonCode::RIGHT;
         break;
 
-    case Qt::Key_Up:
+    case Qt::Key_W:
         buttonCode = aasdk::proto::enums::ButtonCode::UP;
         break;
 
-    case Qt::Key_Down:
+    case Qt::Key_S:
         buttonCode = aasdk::proto::enums::ButtonCode::DOWN;
         break;
 
